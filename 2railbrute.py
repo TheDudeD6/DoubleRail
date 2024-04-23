@@ -1,3 +1,5 @@
+# Use with https://github.com/burturt/railfence-bruteforce/blob/main/railfence.py
+
 def printFence(fence):
     for rail in range(len(fence)):
         print(''.join(fence[rail]))
